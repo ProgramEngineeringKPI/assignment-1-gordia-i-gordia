@@ -33,6 +33,7 @@
 		B10BBA982074BFD3003812B6 /* solve_task.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solve_task.cpp; sourceTree = "<group>"; };
 		B10BBA992074BFD3003812B6 /* solve_task.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = solve_task.hpp; sourceTree = "<group>"; };
 		B10BBA9C2074C009003812B6 /* data_struct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = data_struct.cpp; sourceTree = "<group>"; };
+		B10BBA9E2074C52E003812B6 /* eurovision.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = eurovision.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +70,7 @@
 				B10BBA972074BFB3003812B6 /* solve */,
 				B10BBA932074BDC3003812B6 /* read */,
 				B10BBA8C2074BAD6003812B6 /* main.cpp */,
+				B10BBA9E2074C52E003812B6 /* eurovision.csv */,
 			);
 			path = prog_lab;
 			sourceTree = "<group>";
