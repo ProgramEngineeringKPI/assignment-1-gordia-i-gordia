@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B10BBA8D2074BAD6003812B6 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10BBA8C2074BAD6003812B6 /* main.cpp */; };
+		B10BBA9A2074BFD3003812B6 /* solve_task.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10BBA982074BFD3003812B6 /* solve_task.cpp */; };
+		B10BBA9D2074C009003812B6 /* data_struct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = B10BBA9C2074C009003812B6 /* data_struct.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		B10BBA892074BAD6003812B6 /* prog_lab */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prog_lab; sourceTree = BUILT_PRODUCTS_DIR; };
 		B10BBA8C2074BAD6003812B6 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		B10BBA982074BFD3003812B6 /* solve_task.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = solve_task.cpp; sourceTree = "<group>"; };
+		B10BBA992074BFD3003812B6 /* solve_task.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = solve_task.hpp; sourceTree = "<group>"; };
+		B10BBA9C2074C009003812B6 /* data_struct.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = data_struct.cpp; sourceTree = "<group>"; };
+		B10BBA9E2074C52E003812B6 /* eurovision.csv */ = {isa = PBXFileReference; lastKnownFileType = text; path = eurovision.csv; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +63,21 @@
 		B10BBA8B2074BAD6003812B6 /* prog_lab */ = {
 			isa = PBXGroup;
 			children = (
+				B10BBA972074BFB3003812B6 /* solve */,
 				B10BBA8C2074BAD6003812B6 /* main.cpp */,
+				B10BBA9E2074C52E003812B6 /* eurovision.csv */,
 			);
 			path = prog_lab;
+			sourceTree = "<group>";
+		};
+		B10BBA972074BFB3003812B6 /* solve */ = {
+			isa = PBXGroup;
+			children = (
+				B10BBA9C2074C009003812B6 /* data_struct.cpp */,
+				B10BBA982074BFD3003812B6 /* solve_task.cpp */,
+				B10BBA992074BFD3003812B6 /* solve_task.hpp */,
+			);
+			path = solve;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,6 +138,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B10BBA8D2074BAD6003812B6 /* main.cpp in Sources */,
+				B10BBA9D2074C009003812B6 /* data_struct.cpp in Sources */,
+				B10BBA9A2074BFD3003812B6 /* solve_task.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
